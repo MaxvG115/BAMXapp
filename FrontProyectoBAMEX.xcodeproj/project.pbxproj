@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06AA33FA291022F900B7893D /* FrontProyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontProyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AA33FA291022F900B7893D /* FrontProyectoBAMEX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontProyectoBAMEX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AA33FD291022F900B7893D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06AA33FF291022F900B7893D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		06AA3401291022F900B7893D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		06AA3406291022FB00B7893D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06AA3409291022FB00B7893D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06AA340B291022FB00B7893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06AA3410291022FC00B7893D /* FrontProyectoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontProyectoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AA3410291022FC00B7893D /* FrontProyectoBAMEXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontProyectoBAMEXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AA3414291022FC00B7893D /* FrontProyectoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontProyectoTests.swift; sourceTree = "<group>"; };
 		06AA3416291022FC00B7893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06AA341B291022FC00B7893D /* FrontProyectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontProyectoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AA341B291022FC00B7893D /* FrontProyectoBAMEXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontProyectoBAMEXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AA341F291022FC00B7893D /* FrontProyectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontProyectoUITests.swift; sourceTree = "<group>"; };
 		06AA3421291022FC00B7893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		06AA33FB291022F900B7893D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06AA33FA291022F900B7893D /* FrontProyecto.app */,
-				06AA3410291022FC00B7893D /* FrontProyectoTests.xctest */,
-				06AA341B291022FC00B7893D /* FrontProyectoUITests.xctest */,
+				06AA33FA291022F900B7893D /* FrontProyectoBAMEX.app */,
+				06AA3410291022FC00B7893D /* FrontProyectoBAMEXTests.xctest */,
+				06AA341B291022FC00B7893D /* FrontProyectoBAMEXUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06AA33F9291022F900B7893D /* FrontProyecto */ = {
+		06AA33F9291022F900B7893D /* FrontProyectoBAMEX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06AA3424291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyecto" */;
+			buildConfigurationList = 06AA3424291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoBAMEX" */;
 			buildPhases = (
 				06AA33F6291022F900B7893D /* Sources */,
 				06AA33F7291022F900B7893D /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = FrontProyecto;
+			name = FrontProyectoBAMEX;
 			productName = FrontProyecto;
-			productReference = 06AA33FA291022F900B7893D /* FrontProyecto.app */;
+			productReference = 06AA33FA291022F900B7893D /* FrontProyectoBAMEX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06AA340F291022FC00B7893D /* FrontProyectoTests */ = {
+		06AA340F291022FC00B7893D /* FrontProyectoBAMEXTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06AA3427291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoTests" */;
+			buildConfigurationList = 06AA3427291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoBAMEXTests" */;
 			buildPhases = (
 				06AA340C291022FC00B7893D /* Sources */,
 				06AA340D291022FC00B7893D /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				06AA3412291022FC00B7893D /* PBXTargetDependency */,
 			);
-			name = FrontProyectoTests;
+			name = FrontProyectoBAMEXTests;
 			productName = FrontProyectoTests;
-			productReference = 06AA3410291022FC00B7893D /* FrontProyectoTests.xctest */;
+			productReference = 06AA3410291022FC00B7893D /* FrontProyectoBAMEXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06AA341A291022FC00B7893D /* FrontProyectoUITests */ = {
+		06AA341A291022FC00B7893D /* FrontProyectoBAMEXUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06AA342A291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoUITests" */;
+			buildConfigurationList = 06AA342A291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoBAMEXUITests" */;
 			buildPhases = (
 				06AA3417291022FC00B7893D /* Sources */,
 				06AA3418291022FC00B7893D /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				06AA341D291022FC00B7893D /* PBXTargetDependency */,
 			);
-			name = FrontProyectoUITests;
+			name = FrontProyectoBAMEXUITests;
 			productName = FrontProyectoUITests;
-			productReference = 06AA341B291022FC00B7893D /* FrontProyectoUITests.xctest */;
+			productReference = 06AA341B291022FC00B7893D /* FrontProyectoBAMEXUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06AA33F5291022F800B7893D /* Build configuration list for PBXProject "FrontProyecto" */;
+			buildConfigurationList = 06AA33F5291022F800B7893D /* Build configuration list for PBXProject "FrontProyectoBAMEX" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06AA33F9291022F900B7893D /* FrontProyecto */,
-				06AA340F291022FC00B7893D /* FrontProyectoTests */,
-				06AA341A291022FC00B7893D /* FrontProyectoUITests */,
+				06AA33F9291022F900B7893D /* FrontProyectoBAMEX */,
+				06AA340F291022FC00B7893D /* FrontProyectoBAMEXTests */,
+				06AA341A291022FC00B7893D /* FrontProyectoBAMEXUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		06AA3412291022FC00B7893D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06AA33F9291022F900B7893D /* FrontProyecto */;
+			target = 06AA33F9291022F900B7893D /* FrontProyectoBAMEX */;
 			targetProxy = 06AA3411291022FC00B7893D /* PBXContainerItemProxy */;
 		};
 		06AA341D291022FC00B7893D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06AA33F9291022F900B7893D /* FrontProyecto */;
+			target = 06AA33F9291022F900B7893D /* FrontProyectoBAMEX */;
 			targetProxy = 06AA341C291022FC00B7893D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -484,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrontProyecto.app/FrontProyecto";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrontProyectoBAMEX.app/FrontProyectoBAMEX";
 			};
 			name = Debug;
 		};
@@ -505,7 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrontProyecto.app/FrontProyecto";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrontProyectoBAMEX.app/FrontProyectoBAMEX";
 			};
 			name = Release;
 		};
@@ -550,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06AA33F5291022F800B7893D /* Build configuration list for PBXProject "FrontProyecto" */ = {
+		06AA33F5291022F800B7893D /* Build configuration list for PBXProject "FrontProyectoBAMEX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06AA3422291022FC00B7893D /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06AA3424291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyecto" */ = {
+		06AA3424291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoBAMEX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06AA3425291022FC00B7893D /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06AA3427291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoTests" */ = {
+		06AA3427291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoBAMEXTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06AA3428291022FC00B7893D /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06AA342A291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoUITests" */ = {
+		06AA342A291022FC00B7893D /* Build configuration list for PBXNativeTarget "FrontProyectoBAMEXUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06AA342B291022FC00B7893D /* Debug */,
