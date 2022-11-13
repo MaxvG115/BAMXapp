@@ -15,7 +15,6 @@
 		06AA340A291022FB00B7893D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AA3408291022FB00B7893D /* LaunchScreen.storyboard */; };
 		06AA3415291022FC00B7893D /* FrontProyectoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA3414291022FC00B7893D /* FrontProyectoTests.swift */; };
 		06AA3420291022FC00B7893D /* FrontProyectoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA341F291022FC00B7893D /* FrontProyectoUITests.swift */; };
-		E065FEA92915E90200A63944 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065FEA82915E90200A63944 /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		06AA341B291022FC00B7893D /* FrontProyectoBAMEXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontProyectoBAMEXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AA341F291022FC00B7893D /* FrontProyectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontProyectoUITests.swift; sourceTree = "<group>"; };
 		06AA3421291022FC00B7893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E065FEA82915E90200A63944 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				06AA3406291022FB00B7893D /* Assets.xcassets */,
 				06AA3408291022FB00B7893D /* LaunchScreen.storyboard */,
 				06AA340B291022FB00B7893D /* Info.plist */,
-				E065FEA82915E90200A63944 /* CardCell.swift */,
 			);
 			path = FrontProyecto;
 			sourceTree = "<group>";
@@ -264,7 +261,6 @@
 				06AA3402291022F900B7893D /* ViewController.swift in Sources */,
 				06AA33FE291022F900B7893D /* AppDelegate.swift in Sources */,
 				06AA3400291022F900B7893D /* SceneDelegate.swift in Sources */,
-				E065FEA92915E90200A63944 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
