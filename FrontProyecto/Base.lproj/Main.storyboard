@@ -1339,6 +1339,21 @@ a tu solucitud en las próximas
             </objects>
             <point key="canvasLocation" x="-1123" y="893"/>
         </scene>
+        <!--Checkout View Controller-->
+        <scene sceneID="dAb-jF-SLC">
+            <objects>
+                <viewController id="m0Y-cV-Air" customClass="CheckoutViewController" customModule="FrontProyectoBAMEX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OYx-gJ-2Tv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rzh-L7-du8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2P-od-Rfh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1221" y="1831"/>
+        </scene>
     </scenes>
     <resources>
         <image name="AMEX" width="465" height="253"/>

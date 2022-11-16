@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  FrontProyecto
-//
-//  Created by Lucas Wong Mang on 10/31/22.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
