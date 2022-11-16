@@ -85,7 +85,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="BNMXLOGO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vo-Ox-ewZ">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="BAMXLogoWhite" translatesAutoresizingMaskIntoConstraints="NO" id="2Vo-Ox-ewZ">
                                         <rect key="frame" x="158" y="83" width="98" height="130"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="130" id="JTy-El-PdW"/>
@@ -1008,12 +1008,121 @@ a tu solucitud en las próximas
             </objects>
             <point key="canvasLocation" x="1684" y="-609"/>
         </scene>
+        <!--News View Controller-->
+        <scene sceneID="L3X-jc-Y3n">
+            <objects>
+                <viewController id="4GN-xz-rRI" customClass="NewsViewController" customModule="FrontProyectoBAMEX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FF5-Z2-cgL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="250" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="EsJ-Ni-Z1c">
+                                <rect key="frame" x="0.0" y="94" width="414" height="768"/>
+                                <color key="backgroundColor" red="1" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cardCell" rowHeight="310" id="Q3a-mf-kqs" customClass="CardCell" customModule="FrontProyectoBAMEX" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="310"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q3a-mf-kqs" id="v0J-e3-Kix">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="310"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iDD-Vm-Vqx">
+                                                    <rect key="frame" x="25" y="16" width="364" height="278"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ky4-Et-Xbt">
+                                                            <rect key="frame" x="0.0" y="0.0" width="364" height="125"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="125" id="qrb-hS-KAP"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6it-qp-5zk">
+                                                            <rect key="frame" x="10" y="135" width="344" height="25"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="25" id="Yaf-hf-Ic1"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ed-31-a0q">
+                                                            <rect key="frame" x="10" y="170" width="344" height="98"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="7Ed-31-a0q" secondAttribute="trailing" constant="10" id="4A1-SE-lsq"/>
+                                                        <constraint firstItem="7Ed-31-a0q" firstAttribute="top" secondItem="6it-qp-5zk" secondAttribute="bottom" constant="10" id="8Jd-Lh-BMN"/>
+                                                        <constraint firstItem="6it-qp-5zk" firstAttribute="leading" secondItem="iDD-Vm-Vqx" secondAttribute="leading" constant="10" id="CYa-2w-L3R"/>
+                                                        <constraint firstItem="Ky4-Et-Xbt" firstAttribute="leading" secondItem="iDD-Vm-Vqx" secondAttribute="leading" id="Tld-6k-v1q"/>
+                                                        <constraint firstAttribute="bottom" secondItem="7Ed-31-a0q" secondAttribute="bottom" constant="10" id="eBR-F7-tOC"/>
+                                                        <constraint firstItem="Ky4-Et-Xbt" firstAttribute="top" secondItem="iDD-Vm-Vqx" secondAttribute="top" id="kmy-3T-ubR"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Ky4-Et-Xbt" secondAttribute="trailing" id="op6-kX-rSy"/>
+                                                        <constraint firstItem="7Ed-31-a0q" firstAttribute="leading" secondItem="iDD-Vm-Vqx" secondAttribute="leading" constant="10" id="p0A-yo-1to"/>
+                                                        <constraint firstItem="6it-qp-5zk" firstAttribute="top" secondItem="Ky4-Et-Xbt" secondAttribute="bottom" constant="10" id="tcn-nt-gxr"/>
+                                                        <constraint firstAttribute="trailing" secondItem="6it-qp-5zk" secondAttribute="trailing" constant="10" id="zCb-fY-ESv"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="iDD-Vm-Vqx" secondAttribute="bottom" constant="5" id="0M0-y8-DYs"/>
+                                                <constraint firstItem="iDD-Vm-Vqx" firstAttribute="top" secondItem="v0J-e3-Kix" secondAttribute="topMargin" constant="5" id="KC7-So-rgd"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="iDD-Vm-Vqx" secondAttribute="trailing" constant="5" id="LJl-GX-ao3"/>
+                                                <constraint firstItem="iDD-Vm-Vqx" firstAttribute="leading" secondItem="v0J-e3-Kix" secondAttribute="leadingMargin" constant="5" id="xFn-dG-qKl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="cardView" destination="iDD-Vm-Vqx" id="qAC-oB-B0k"/>
+                                            <outlet property="descriptionLabel" destination="7Ed-31-a0q" id="epB-jT-TfE"/>
+                                            <outlet property="pictureView" destination="Ky4-Et-Xbt" id="AsM-u8-InD"/>
+                                            <outlet property="titleLabel" destination="6it-qp-5zk" id="CzA-MD-Sz1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="4GN-xz-rRI" id="hzh-vt-FPe"/>
+                                    <outlet property="delegate" destination="4GN-xz-rRI" id="jxx-9c-Kec"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noticias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFu-Kv-iqv">
+                                <rect key="frame" x="72" y="62" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.76862745099999996" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BAMXLogo" translatesAutoresizingMaskIntoConstraints="NO" id="94T-eM-8c3">
+                                <rect key="frame" x="20" y="51" width="44" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pRl-xj-bsk"/>
+                        <color key="backgroundColor" red="1" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="EsJ-Ni-Z1c" firstAttribute="leading" secondItem="pRl-xj-bsk" secondAttribute="leading" id="QSR-ys-O0o"/>
+                            <constraint firstItem="pRl-xj-bsk" firstAttribute="trailing" secondItem="EsJ-Ni-Z1c" secondAttribute="trailing" id="g0B-Fa-jMy"/>
+                            <constraint firstItem="pRl-xj-bsk" firstAttribute="bottom" secondItem="EsJ-Ni-Z1c" secondAttribute="bottom" id="hvC-in-OxR"/>
+                            <constraint firstItem="EsJ-Ni-Z1c" firstAttribute="top" secondItem="pRl-xj-bsk" secondAttribute="top" constant="50" id="sKa-Ht-mr5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardTableView" destination="EsJ-Ni-Z1c" id="5cr-Y4-7rJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KCZ-Da-p1w" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5454" y="40"/>
+        </scene>
     </scenes>
     <resources>
         <image name="AMEX" width="465" height="253"/>
         <image name="Amezquitic" width="348" height="121"/>
+        <image name="BAMXLogo" width="134" height="194"/>
         <image name="BAMXLogoWhite" width="88" height="118"/>
-        <image name="BNMXLOGO" width="218" height="308"/>
         <image name="MasterCard" width="419" height="341"/>
         <image name="Medalla" width="326" height="375"/>
         <image name="PFP" width="95" height="95"/>
