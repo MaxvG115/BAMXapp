@@ -1,0 +1,12 @@
+{
+  "name": "stripe-BAMX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "stripe": "^9.0.0"
+  },
+  "keywords": []
+}

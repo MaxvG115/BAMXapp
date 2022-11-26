@@ -17,6 +17,8 @@
 		06AA3420291022FC00B7893D /* FrontProyectoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA341F291022FC00B7893D /* FrontProyectoUITests.swift */; };
 		E0BF7465292487F30041EFBA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF7464292487F30041EFBA /* NewsViewController.swift */; };
 		E0BF7468292488590041EFBA /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF7467292488590041EFBA /* CardCell.swift */; };
+		E0E107BD2931AA0800A16741 /* server.js in Resources */ = {isa = PBXBuildFile; fileRef = E0E107BB2931AA0700A16741 /* server.js */; };
+		E0E107BE2931AA0800A16741 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = E0E107BC2931AA0800A16741 /* package.json */; };
 		E0E712192925481C00B61542 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E712182925481C00B61542 /* Utilities.swift */; };
 		E0E7121B2925482A00B61542 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7121A2925482A00B61542 /* Constants.swift */; };
 		E0E7121D2925485000B61542 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7121C2925485000B61542 /* LoginViewController.swift */; };
@@ -43,9 +45,6 @@
 		E0E7132529255E8E00B61542 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = E0E7132429255E8E00B61542 /* FirebaseRemoteConfig */; };
 		E0E7132729255E8E00B61542 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E0E7132629255E8E00B61542 /* FirebaseStorage */; };
 		E0E7132929255E8E00B61542 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = E0E7132829255E8E00B61542 /* FirebaseStorageSwift-Beta */; };
-		E0E713442925A78E00B61542 /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = E0E713412925A78E00B61542 /* server.rb */; };
-		E0E713452925A78E00B61542 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = E0E713422925A78E00B61542 /* Gemfile.lock */; };
-		E0E713462925A78E00B61542 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = E0E713432925A78E00B61542 /* Gemfile */; };
 		E0E713492925A7CF00B61542 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = E0E713482925A7CF00B61542 /* Stripe */; };
 		E0E7134B2925A7CF00B61542 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = E0E7134A2925A7CF00B61542 /* StripeApplePay */; };
 		E0E7134D2925A7CF00B61542 /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = E0E7134C2925A7CF00B61542 /* StripeCardScan */; };
@@ -87,15 +86,14 @@
 		06AA3421291022FC00B7893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0BF7464292487F30041EFBA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		E0BF7467292488590041EFBA /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		E0E107BB2931AA0700A16741 /* server.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = server.js; sourceTree = "<group>"; };
+		E0E107BC2931AA0800A16741 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
 		E0E712182925481C00B61542 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		E0E7121A2925482A00B61542 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E0E7121C2925485000B61542 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E0E7121E2925486300B61542 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E0E7122029254C1E00B61542 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		E0E7122729254DAC00B61542 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E0E713412925A78E00B61542 /* server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = server.rb; sourceTree = "<group>"; };
-		E0E713422925A78E00B61542 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
-		E0E713432925A78E00B61542 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		E0E713502925A80D00B61542 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -229,9 +227,8 @@
 		E0E713402925A76F00B61542 /* BackendProyecto */ = {
 			isa = PBXGroup;
 			children = (
-				E0E713432925A78E00B61542 /* Gemfile */,
-				E0E713422925A78E00B61542 /* Gemfile.lock */,
-				E0E713412925A78E00B61542 /* server.rb */,
+				E0E107BC2931AA0800A16741 /* package.json */,
+				E0E107BB2931AA0700A16741 /* server.js */,
 			);
 			path = BackendProyecto;
 			sourceTree = "<group>";
@@ -369,13 +366,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E713452925A78E00B61542 /* Gemfile.lock in Resources */,
 				06AA340A291022FB00B7893D /* LaunchScreen.storyboard in Resources */,
-				E0E713442925A78E00B61542 /* server.rb in Resources */,
 				E0E7122829254DAC00B61542 /* GoogleService-Info.plist in Resources */,
+				E0E107BE2931AA0800A16741 /* package.json in Resources */,
 				06AA3407291022FB00B7893D /* Assets.xcassets in Resources */,
-				E0E713462925A78E00B61542 /* Gemfile in Resources */,
 				06AA3405291022F900B7893D /* Main.storyboard in Resources */,
+				E0E107BD2931AA0800A16741 /* server.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
