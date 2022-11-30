@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6qA-KY-xdb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6qA-KY-xdb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -22,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N9I-Kv-Kn1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1530" y="-956"/>
+            <point key="canvasLocation" x="-1123" y="107"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -33,7 +34,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xN6-7Z-g8W">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="4" width="414" height="896"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="pngegg (1)" translatesAutoresizingMaskIntoConstraints="NO" id="YI8-2y-XQb">
                                         <rect key="frame" x="-1" y="659" width="414" height="414"/>
@@ -99,7 +100,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uml-UU-WfR">
-                                <rect key="frame" x="-1" y="469" width="414" height="427"/>
+                                <rect key="frame" x="-1" y="473" width="414" height="427"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ncw-AK-yhL">
                                         <rect key="frame" x="44.5" y="8" width="325" height="298"/>
@@ -174,7 +175,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-648" y="-956"/>
+            <point key="canvasLocation" x="-242" y="107"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="deI-hv-7fF">
@@ -185,7 +186,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2t-I7-xZT">
-                                <rect key="frame" x="93" y="200" width="283" height="638"/>
+                                <rect key="frame" x="93" y="204" width="283" height="638"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Qué producto quieres donar?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMG-AV-EiY">
                                         <rect key="frame" x="-44" y="0.0" width="260" height="19.5"/>
@@ -231,9 +232,6 @@
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="ENVIAR">
-                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
-                                        </buttonConfiguration>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zu3-Ma-7qt">
                                         <rect key="frame" x="-33" y="27" width="302" height="38"/>
@@ -313,7 +311,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gx4-8d-2cO">
-                                <rect key="frame" x="31" y="57" width="337" height="135"/>
+                                <rect key="frame" x="31" y="61" width="337" height="135"/>
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HEt-hu-huK">
                                         <rect key="frame" x="16" y="82" width="51" height="40"/>
@@ -556,9 +554,6 @@ Cgo
                                 <color key="backgroundColor" red="1" green="0.23921568630000001" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Donar ahora">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
-                                </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70T-Fv-HBB">
                                 <rect key="frame" x="46" y="604" width="323" height="123"/>
@@ -703,23 +698,11 @@ Cgo
                                 <rect key="frame" x="82" y="606" width="121" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title=""/>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABp-Db-6Ke">
                                 <rect key="frame" x="204" y="606" width="121" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="CREDIT CARD">
-                                            <attributes>
-                                                <font key="NSFont" size="14" name="Helvetica-Bold"/>
-                                                <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
                             </button>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MasterCard" translatesAutoresizingMaskIntoConstraints="NO" id="fCu-Ln-G1z">
                                 <rect key="frame" x="175" y="683" width="64" height="38"/>
@@ -739,16 +722,6 @@ Cgo
                                 <color key="backgroundColor" red="1" green="0.23921568630000001" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Donar ahora">
-                                            <attributes>
-                                                <font key="NSFont" size="17" name="Helvetica-Bold"/>
-                                                <font key="NSOriginalFont" size="17" name="Helvetica-Bold"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bFs-68-IFS"/>
@@ -851,7 +824,7 @@ a tu solucitud en las próximas
             </objects>
             <point key="canvasLocation" x="3741" y="-609"/>
         </scene>
-        <!--View Controller-->
+        <!--Perfil-->
         <scene sceneID="V4r-qh-pEu">
             <objects>
                 <viewController id="Squ-9c-GTc" sceneMemberID="viewController">
@@ -918,9 +891,6 @@ a tu solucitud en las próximas
                                 <rect key="frame" x="252" y="498" width="131" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Recompensas">
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
-                                </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teléfono" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ns-lO-gto">
                                 <rect key="frame" x="20" y="540" width="74" height="22"/>
@@ -940,10 +910,6 @@ a tu solucitud en las próximas
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <imageReference key="image" image="pencil" catalog="system" symbolScale="default"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" scale="default" weight="black"/>
-                                </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ky0-ET-T2W">
                                 <rect key="frame" x="20" y="620" width="60" height="22"/>
@@ -963,10 +929,6 @@ a tu solucitud en las próximas
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <imageReference key="image" image="pencil" catalog="system" symbolScale="default"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" scale="default" weight="black"/>
-                                </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYh-UC-o6g">
                                 <rect key="frame" x="20" y="701" width="100" height="22"/>
@@ -986,28 +948,25 @@ a tu solucitud en las próximas
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <imageReference key="image" image="pencil" catalog="system" symbolScale="default"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20" scale="default" weight="black"/>
-                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o26-Ph-4rh">
                                 <rect key="frame" x="138" y="770" width="139" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.23921568630000001" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Cerrar sesión"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RZ6-Gy-OuO"/>
                         <color key="backgroundColor" red="1" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Perfil" id="0Nq-uc-Xao"/>
+                    <navigationItem key="navigationItem" id="QOq-Xc-y2d"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yN0-hn-pk0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1684" y="-609"/>
         </scene>
-        <!--News View Controller-->
+        <!--Noticias-->
         <scene sceneID="L3X-jc-Y3n">
             <objects>
                 <viewController storyboardIdentifier="NewsVC" id="4GN-xz-rRI" customClass="NewsViewController" customModule="FrontProyectoBAMEX" customModuleProvider="target" sceneMemberID="viewController">
@@ -1016,11 +975,11 @@ a tu solucitud en las próximas
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="250" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="EsJ-Ni-Z1c">
-                                <rect key="frame" x="0.0" y="94" width="414" height="768"/>
+                                <rect key="frame" x="0.0" y="98" width="414" height="666"/>
                                 <color key="backgroundColor" red="1" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cardCell" rowHeight="310" id="Q3a-mf-kqs" customClass="CardCell" customModule="FrontProyectoBAMEX" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="310"/>
+                                        <rect key="frame" x="0.0" y="50" width="414" height="310"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q3a-mf-kqs" id="v0J-e3-Kix">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="310"/>
@@ -1108,13 +1067,34 @@ a tu solucitud en las próximas
                             <constraint firstItem="EsJ-Ni-Z1c" firstAttribute="top" secondItem="pRl-xj-bsk" secondAttribute="top" constant="50" id="sKa-Ht-mr5"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Noticias" id="fUs-DP-Lcn"/>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="cardTableView" destination="EsJ-Ni-Z1c" id="5cr-Y4-7rJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KCZ-Da-p1w" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5454" y="40"/>
+            <point key="canvasLocation" x="2249" y="893"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ck2-Og-ZfJ">
+            <objects>
+                <tabBarController id="aCI-iB-cc8" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="acR-kU-afe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4GN-xz-rRI" kind="relationship" relationship="viewControllers" id="gh1-0r-mwe"/>
+                        <segue destination="Squ-9c-GTc" kind="relationship" relationship="viewControllers" id="J0o-3Q-mxo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="flY-fE-psx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3741" y="106"/>
         </scene>
         <!--Landing View Controller-->
         <scene sceneID="jGr-hg-Kuy">
@@ -1132,20 +1112,14 @@ a tu solucitud en las próximas
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="bnP-Yn-kww"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="SIgn Up">
-                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="18"/>
-                                        </buttonConfiguration>
+                                        <state key="normal" title="Sign up"/>
                                         <connections>
                                             <segue destination="K4o-8f-YRY" kind="show" id="EWm-kT-TYu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfL-8p-IjO">
                                         <rect key="frame" x="0.0" y="80" width="334" height="38.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Log In">
-                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="18"/>
-                                        </buttonConfiguration>
+                                        <state key="normal" title="Log In"/>
                                         <connections>
                                             <segue destination="kPm-MY-OQy" kind="show" id="c5j-Ad-cP6"/>
                                         </connections>
@@ -1183,7 +1157,7 @@ a tu solucitud en las próximas
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="XOh-f0-mI0">
-                                <rect key="frame" x="40" y="84" width="334" height="260.5"/>
+                                <rect key="frame" x="40" y="88" width="334" height="260.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m7Z-uB-xfC">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -1201,9 +1175,6 @@ a tu solucitud en las próximas
                                             <constraint firstAttribute="height" constant="50" id="5FN-xV-OEo"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Log In">
-                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="18"/>
-                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="logInTapped:" destination="kPm-MY-OQy" eventType="touchUpInside" id="Zvi-ke-Rfr"/>
                                         </connections>
@@ -1250,7 +1221,7 @@ a tu solucitud en las próximas
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="LeW-Jm-GHr">
-                                <rect key="frame" x="40" y="84" width="334" height="420.5"/>
+                                <rect key="frame" x="40" y="88" width="334" height="420.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombres" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8bR-Jw-hzk">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -1278,9 +1249,6 @@ a tu solucitud en las próximas
                                             <constraint firstAttribute="height" constant="50" id="86d-Nx-zkT"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Sign Up">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
-                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="signUpTapped:" destination="K4o-8f-YRY" eventType="touchUpInside" id="in7-KM-s4F"/>
                                         </connections>
@@ -1320,7 +1288,7 @@ a tu solucitud en las próximas
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vTD-Qt-ZVL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1961" y="1315"/>
+            <point key="canvasLocation" x="1193" y="1290"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YJv-cs-ie2">
@@ -1336,6 +1304,13 @@ a tu solucitud en las próximas
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="umI-zv-vF1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tabBarItem title="Item 1" id="9kD-Og-62t"/>
+                <tabBar contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qLy-5b-ZlU">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <items/>
+                </tabBar>
             </objects>
             <point key="canvasLocation" x="-1123" y="893"/>
         </scene>
@@ -1365,19 +1340,18 @@ a tu solucitud en las próximas
         <image name="PFP" width="95" height="95"/>
         <image name="Picture1" width="814" height="1081"/>
         <image name="Visa" width="696" height="287"/>
-        <image name="circle" catalog="system" width="128" height="121"/>
-        <image name="circle.fill" catalog="system" width="128" height="121"/>
-        <image name="gearshape.circle" catalog="system" width="128" height="121"/>
-        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="circle" catalog="system" width="128" height="123"/>
+        <image name="circle.fill" catalog="system" width="128" height="123"/>
+        <image name="gearshape.circle" catalog="system" width="128" height="123"/>
         <image name="pngegg (1)" width="414" height="414"/>
         <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="placeholderTextColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
