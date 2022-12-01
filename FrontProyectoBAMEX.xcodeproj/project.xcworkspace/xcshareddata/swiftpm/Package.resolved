@@ -101,6 +101,15 @@
         }
       },
       {
+        "package": "Stripe",
+        "repositoryURL": "https://github.com/stripe/stripe-ios-spm",
+        "state": {
+          "branch": null,
+          "revision": "023bf5968b6604d2030827ed96c2b0cbe613c95a",
+          "version": "23.0.0"
+        }
+      },
+      {
         "package": "SwiftProtobuf",
         "repositoryURL": "https://github.com/apple/swift-protobuf.git",
         "state": {
