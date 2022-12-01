@@ -15,6 +15,7 @@
 		06AA340A291022FB00B7893D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AA3408291022FB00B7893D /* LaunchScreen.storyboard */; };
 		06AA3415291022FC00B7893D /* FrontProyectoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA3414291022FC00B7893D /* FrontProyectoTests.swift */; };
 		06AA3420291022FC00B7893D /* FrontProyectoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA341F291022FC00B7893D /* FrontProyectoUITests.swift */; };
+		06DB99D02937DDAD00B636C7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB99CF2937DDAD00B636C7 /* Configuration.swift */; };
 		E0BF7465292487F30041EFBA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF7464292487F30041EFBA /* NewsViewController.swift */; };
 		E0BF7468292488590041EFBA /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF7467292488590041EFBA /* CardCell.swift */; };
 		E0E107BD2931AA0800A16741 /* server.js in Resources */ = {isa = PBXBuildFile; fileRef = E0E107BB2931AA0700A16741 /* server.js */; };
@@ -84,6 +85,7 @@
 		06AA341B291022FC00B7893D /* FrontProyectoBAMEXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontProyectoBAMEXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AA341F291022FC00B7893D /* FrontProyectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontProyectoUITests.swift; sourceTree = "<group>"; };
 		06AA3421291022FC00B7893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DB99CF2937DDAD00B636C7 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		E0BF7464292487F30041EFBA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		E0BF7467292488590041EFBA /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		E0E107BB2931AA0700A16741 /* server.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = server.js; sourceTree = "<group>"; };
@@ -210,7 +212,8 @@
 				E0E7121C2925485000B61542 /* LoginViewController.swift */,
 				E0E7121E2925486300B61542 /* SignUpViewController.swift */,
 				E0E7122029254C1E00B61542 /* LandingViewController.swift */,
-				E0E713502925A80D00B61542 /* CheckoutViewController.swift */,
+				06DB99CF2937DDAD00B636C7 /* Configuration.swift */,
+
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				06AA3400291022F900B7893D /* SceneDelegate.swift in Sources */,
 				E0E7122129254C1E00B61542 /* LandingViewController.swift in Sources */,
 				E0BF7465292487F30041EFBA /* NewsViewController.swift in Sources */,
+				06DB99D02937DDAD00B636C7 /* Configuration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
